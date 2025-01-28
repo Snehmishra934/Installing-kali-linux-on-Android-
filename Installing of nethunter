@@ -41,5 +41,7 @@ Choose the appropriate Kali rootfs image (minimal or full) depending on your sto
 
 Once the installation is complete, you can access the NetHunter session using:
 
-n
 
+nethunter 
+for root
+nh -r 
