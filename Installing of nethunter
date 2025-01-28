@@ -1,1 +1,45 @@
+Requirements
+
+Android device with at least 4GB of RAM and sufficient storage space.
+Termux installed from F-Droid. Avoid Termux from the Play Store as it’s outdated.
+A stable internet connection.
+
+Steps to Install and Setup NetHunter
+
+1. Update Termux and Install Required Packages
+First, update Termux and install the necessary dependencies:
+
+
+pkg update && pkg upgrade -y
+pkg install wget curl proot git -y
+
+
+2. Download and Install the Kali NetHunter Chroot
+Use the official NetHunter script to install Kali Linux.
+1. Download the NetHunter installation script:
+
+
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+chmod +x install-nethunter-termux
+
+
+2. Run the script to install NetHunter:
+
+./install-nethunter-termux
+
+The script will download and set up the full NetHunter environment.
+
+Choose the appropriate Kali rootfs image (minimal or full) depending on your storage space and requirements.
+
+
+
+
+
+---
+
+3. Launch the Kali NetHunter Environment
+
+Once the installation is complete, you can access the NetHunter session using:
+
+n
 
